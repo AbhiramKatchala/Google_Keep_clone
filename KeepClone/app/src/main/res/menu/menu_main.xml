@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/refresh"
+        android:orderInCategory="100"
+        android:icon="@drawable/rb3"
+        android:title="refresh"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/search"
+        android:orderInCategory="100"
+        android:title="search"
+        android:icon="@drawable/search"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/relative"
+        android:orderInCategory="100"
+        android:title="settings"
+        android:visible="true"
+        android:icon="@drawable/relative"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/linear"
+        android:orderInCategory="100"
+        android:title="settings"
+        android:visible="false"
+        android:icon="@drawable/linear"
+        app:showAsAction="always" />
+
+</menu>
